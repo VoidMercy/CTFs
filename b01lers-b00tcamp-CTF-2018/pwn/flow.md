@@ -48,8 +48,8 @@ Here's what we do:
 2. disas vuln
 3. break on the last instruction of vuln, the ret intsruction
 4. run program and enter a recognizable pattern similar to in the cookie writeup
-5. examine what's on the of the stack because that should be the address of the print flag function
-6. replace the section in our pattern with address of print flag function
+5. examine what's on top of the stack because that should be the address of the print flag function
+6. replace the section in our pattern with what's on top of the stack with address of print flag function
 7. pipe in with python and get our flag:
 
 ```

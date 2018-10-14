@@ -6,7 +6,7 @@ Here we are given a netcat server and, presumably, the python code that is runni
 Connect via nc 40.76.33.15 31337
 ```
 
-```python2
+```python
 #!/usr/bin/env python2
 import sys
 import time

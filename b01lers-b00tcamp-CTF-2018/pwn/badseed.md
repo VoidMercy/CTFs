@@ -39,7 +39,7 @@ int main() {
 
 Now here is the python code to interact with both the server, and call this C program to generate a random number:
 
-```
+```python
 from pwn import *
 import os
 r = remote("40.76.33.15", 31338)

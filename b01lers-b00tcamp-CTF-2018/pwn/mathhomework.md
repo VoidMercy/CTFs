@@ -4,7 +4,7 @@ We are given a nc server, ```nc 40.76.33.15 55777```, and a 64 bit binary.
 
 Here is the pseudocode:
 
-```
+```C
 int __cdecl __noreturn main(int argc, const char **argv, const char **envp)
 {
   unsigned int v3; // eax
@@ -83,7 +83,7 @@ However, if it's the last question, the checkState returns automatically without
 
 Now the flag is printed from the function end:
 
-```
+```C
 void __noreturn end()
 {
   puts("\nEh, I can just make it up on the final.");

@@ -1,6 +1,6 @@
 # Pwn 250 - birdy
 
-Literally the same method and solution as the Flow writeup. Just read writeup for that one and apply the same methodology here.
+Literally the same method and solution as the [Flow](flow.md) writeup. Just read writeup for that one and apply the same methodology here.
 
 ```
 root@ctf:~# gdb birdy

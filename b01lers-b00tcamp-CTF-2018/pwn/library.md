@@ -81,7 +81,7 @@ These two lines are of interest:
    
 See how in the pseudocode ```system("echo 'Good luck on your final pwning voyage of the competition\n'");``` is called? That's how you do it in assembly. The address of the string is pushed onto the stack, then the return address is pushed with the call function, then the program jumps to system.
 
-So the stack would look like: <ret address> <argument> when system is called. We can replicate the stack to have the first argument be "/bin/sh" because we have a stack buffer overflow. The format would have to be <anything because we don't care about return address> <address of /bin/sh string>.
+So the stack would look like: ```<ret address> <argument>``` when system is called. We can replicate the stack to have the first argument be "/bin/sh" because we have a stack buffer overflow. The format would have to be ```<anything because we don't care about return address> <address of /bin/sh string>```.
 
 Luckily the problem author was nice enough to include a /bin/sh string in the binary, although it is still solvable without:
 

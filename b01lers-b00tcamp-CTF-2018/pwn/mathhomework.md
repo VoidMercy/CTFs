@@ -92,7 +92,7 @@ void __noreturn end()
 }
 ```
 
-To reach end, all we have to do is not get a single question correct. Since our lives is not negative and it only decrements, we can just get all the questions wrong and receive the flag. My python program implementing this is shown below:
+To reach end, all we have to do is not get a single question correct. Since our lives is now negative and it only decrements, we can just get all the questions wrong and receive the flag. My python program implementing this is shown below:
 
 ```python
 from pwn import *

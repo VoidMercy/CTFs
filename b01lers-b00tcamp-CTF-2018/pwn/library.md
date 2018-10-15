@@ -90,7 +90,7 @@ Luckily the problem author was nice enough to include a /bin/sh string in the bi
 .data:0804A024 g_helpful_string db '/bin/sh',0
 ```
 
-So our input would have to be <padding> <system address> <anything> <address of binsh string>. Here is my code to do so:
+So our input would have to be ```<padding> <system address> <anything> <address of binsh string>```. Here is my code to do so:
 
 ```python
 from pwn import *
